@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 3.75rem;
+    background-color:#231F20;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    /* height: 3.125rem; */
+    width: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url('./Colors-Amazon-Logo.jpg');
+    /* height: 3.125rem; */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.border{
+    border:0.125rem solid transparent;
+}
+
+.border:hover{
+    border: 0.125rem solid white;
+}
+
+.nav_address{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.125rem;
+    height: 3.125rem;
+    
+}
+
+.deliver{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #cccccc;
+}
+.deliver_2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.address_icon{
+    display: flex;
+    gap: 0.3125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_search{
+   
+    margin-left: .625rem;
+    display: flex;
+    justify-content: center;align-items: center;
+    height: 2.2rem;
+    margin-top: 8px;
+    border:5px solid transparent;
+    
+    /* background-color: yellow; */
+    
+}
+.nav_search:hover{
+   
+   border:5px solid rgb(255, 136, 0);
+   height: 2.2rem;
+   border-radius: 10px;
+    
+}
+
+.nav_select{
+    background-color: #f3f3f3;
+    width: 3.125rem;
+    /* height: 100%; */
+    height: 2.12rem;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border: none;
+    font-size: small;
+}
+
+.nav_select option{
+    font-size: medium;
+    background-color: #231F20;
+    color: white;
+    gap: .625rem;
+}
+
+.nav_search_input{
+    /* border-radius:3px ; */
+    height: 2rem;
+    width:31.25rem;
+    align-items: center;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ; */
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    outline: none;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.search_icon_div{
+    /* margin-left: .625rem; */
+    height: 2.2rem;
+    width: 50px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(255, 196, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    color: #231F20;;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.flag{
+    width:25px;
+    height:20px;
+}
+
+.language_para{
+
+    cursor:pointer;
+}
+
+.language_icon{
+    cursor:pointer;
+}
+
+
+.signin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.small_para{
+font-size: small;
+}
+
+
+.big_para{
+font-size: medium;
+font-weight: 700;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.card_icon{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
